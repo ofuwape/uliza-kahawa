@@ -66,19 +66,11 @@ separate, human-approved channel.
 
 ## How it works
 
-```
- farmer's words (Kiswahili / English / mixed / typos)
-        │
-        ▼
- normalise ─► hashed word + character n-grams (16,384 buckets)
-        │
-        ▼
- small softmax classifier, int8 weights (279 KB, runs in plain JavaScript)
-        │
-        ├── sure (≥ 86%)            → the expert-written answer for that topic (text + recorded audio)
-        ├── unsure between topics   → "Did you mean 1 … 2 …, 0 talk to a person"   (the farmer chooses)
-        └── not coffee / not sure   → "I can only help with …", question saved for the extension officer
-```
+![One small AI, two kinds of phone](docs/diagrams/01_overview.png)
+
+**What happens to one message:**
+
+![What happens to one message](docs/diagrams/02_decision.png)
 
 - **The AI chooses; people write every word.** The model only picks one of 12 vetted answers. It cannot generate
   text, so it cannot invent a pesticide, a dose or a date.
@@ -86,7 +78,7 @@ separate, human-approved channel.
   page *is* the app). On a basic phone the same classifier and answers reach Noor by **USSD, SMS or a voice call**;
   that needs a phone signal but no internet or data. The basic-phone screen on the page runs the same code as the
   ready server in `ussd/server.js`.
-- **Architecture, diagrams and every trade-off we made:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+- **Architecture, the data and build diagrams, and every trade-off we made:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 - **The 10-second rule.** A USSD session drops if a reply takes more than about 10 seconds. Large cloud models can
   take seconds; this model answers in under a millisecond, so even on slow 2G the reply arrives with room to spare.
 
