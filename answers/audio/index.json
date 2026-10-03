@@ -1,0 +1,58 @@
+{
+ "_about": "ElevenLabs eleven_v3, SabiNau voice, synthetic demo voice. Texts = the sms answers.",
+ "price_month": "Sep 2026",
+ "files": {
+  "leaf_rust": {
+   "en": "audio/leaf_rust.en.mp3",
+   "sw": "audio/leaf_rust.sw.mp3"
+  },
+  "cbd": {
+   "en": "audio/cbd.en.mp3",
+   "sw": "audio/cbd.sw.mp3"
+  },
+  "berry_borer": {
+   "en": "audio/berry_borer.en.mp3",
+   "sw": "audio/berry_borer.sw.mp3"
+  },
+  "spray_timing": {
+   "en": "audio/spray_timing.en.mp3",
+   "sw": "audio/spray_timing.sw.mp3"
+  },
+  "yield_drop": {
+   "en": "audio/yield_drop.en.mp3",
+   "sw": "audio/yield_drop.sw.mp3"
+  },
+  "fertilizer_weeds": {
+   "en": "audio/fertilizer_weeds.en.mp3",
+   "sw": "audio/fertilizer_weeds.sw.mp3"
+  },
+  "pruning": {
+   "en": "audio/pruning.en.mp3",
+   "sw": "audio/pruning.sw.mp3"
+  },
+  "harvest": {
+   "en": "audio/harvest.en.mp3",
+   "sw": "audio/harvest.sw.mp3"
+  },
+  "quality": {
+   "en": "audio/quality.en.mp3",
+   "sw": "audio/quality.sw.mp3"
+  },
+  "price": {
+   "en": "audio/price.en.mp3",
+   "sw": "audio/price.sw.mp3"
+  },
+  "varieties": {
+   "en": "audio/varieties.en.mp3",
+   "sw": "audio/varieties.sw.mp3"
+  },
+  "ask_person": {
+   "en": "audio/ask_person.en.mp3",
+   "sw": "audio/ask_person.sw.mp3"
+  },
+  "not_sure": {
+   "en": "audio/not_sure.en.mp3",
+   "sw": "audio/not_sure.sw.mp3"
+  }
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "_about": "The FIXED list of answers. The model only chooses one of these; it never writes text. 'sms' fits one SMS (<=160 chars) and one USSD screen (<=182). 'more' is the longer app version. Kiswahili is a DRAFT translation (needs a native-speaker review before any real use). Every answer cites the file it comes from in data/raw/advisory/. 'ask_person': true means the answer itself sends the farmer to a person.",
+ "version": "2026-10-03",
+ "languages": [
+  "en",
+  "sw"
+ ],
+ "intents": [
+  {
+   "id": "leaf_rust",
+   "label": "Leaf rust",
+   "sms": {
+    "en": "Yellow-orange powder under the leaves is leaf rust. Spray a registered copper fungicide before the rains, again 3 weeks later. Ask the coop for the list.",
+    "sw": "Unga wa njano-machungwa chini ya majani ni kutu ya majani. Nyunyiza dawa ya shaba iliyosajiliwa kabla ya mvua, tena baada ya wiki 3. Uliza chama orodha."
+   },
+   "more": {
+    "en": "Leaf rust shows as yellow to orange powdery spots on the underside of leaves, with yellow patches on top. Badly hit trees drop their leaves and give less coffee next season. Spray only fungicides registered by PCPB for coffee, at the rate on the label: in mid-October just before the short rains and 3 weeks later, then late February or early March for the long rains. Ruiru 11 is highly resistant if you replant.",
+    "sw": "Kutu ya majani huonekana kama madoa ya unga wa njano hadi machungwa chini ya majani, na mabaka ya njano juu. Miti iliyoathirika sana hupukutisha majani na kuzaa kidogo msimu ujao. Tumia dawa zilizosajiliwa na PCPB kwa kahawa tu, kwa kipimo kilicho kwenye lebo: katikati ya Oktoba kabla ya mvua fupi na baada ya wiki 3, kisha mwisho wa Februari au mwanzo wa Machi kwa mvua ndefu. Ruiru 11 ina kinga kubwa ukipanda upya."
+   },
+   "source": [
+    {
+     "file": "rust-kenya-review-kalro-2021.pdf",
+     "where": "p.4 symptoms; p.6-7 spray timing (mid-October, 3 weeks, late Feb / early Mar); p.5 Ruiru 11 highly resistant",
+     "quote": "fungicide sprays for CLR control in Kenya starts in mid-October, just before the start of short rains followed by a second spray, three weeks after the first spray"
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "cbd",
+   "label": "Coffee berry disease",
+   "sms": {
+    "en": "Small dark sunken spots on green berries that turn black is coffee berry disease. It strikes after flowering. Show a berry to your extension officer.",
+    "sw": "Madoa madogo meusi yaliyobonyea kwenye matunda mabichi yanayogeuka meusi ni ugonjwa wa matunda. Hushambulia baada ya maua. Mwonyeshe afisa ugani tunda."
+   },
+   "more": {
+    "en": "Coffee berry disease starts as small, dark, sunken spots on young green berries. In wet weather they show red-orange spores, then berries turn black and dry, and drop or stay on the branch. It attacks berries as they grow after flowering, and a bad attack can destroy most of the crop. Control needs the right registered fungicide at the right time, so confirm it with your extension officer or cooperative. Ruiru 11 and Batian resist it.",
+    "sw": "Ugonjwa wa matunda ya kahawa huanza kama madoa madogo meusi yaliyobonyea kwenye matunda machanga mabichi. Wakati wa mvua huonyesha vijidudu vyekundu-machungwa, kisha matunda huwa meusi na kukauka, na kuanguka au kubaki tawini. Hushambulia matunda yanapokua baada ya maua, na shambulio kubwa linaweza kuharibu mavuno mengi. Udhibiti unahitaji dawa sahihi iliyosajiliwa kwa wakati sahihi, kwa hivyo thibitisha na afisa ugani au chama chako. Ruiru 11 na Batian zina kinga."
+   },
+   "source": [
+    {
+     "file": "cbd-rust-coinfection-review-2025.txt",
+     "where": "Introduction, line 113",
+     "quote": "initially manifests as small, dark, depressed lesions on delicate green cherry beans ... severe infections can destroy as much as 80 % of the possible yields"
+    },
+    {
+     "file": "cbd-rust-mount-kenya-independent.txt",
+     "where": "line 26",
+     "quote": "the genetically more resilient \"Ruiru 11\" and \"Batian\" strains, which were developed by the government's Coffee Research Institute"
+    }
+   ],
+   "ask_person": true
+  },
+  {
+   "id": "berry_borer",
+   "label": "Berry borer",
+   "sms": {
+    "en": "A tiny hole near the tip of the berry is berry borer. Pick all ripe and fallen berries, don't leave old ones on the tree or ground. Tell your coop.",
+    "sw": "Tundu dogo karibu na ncha ya tunda ni mdudu wa matunda (borer). Chuma matunda yote yaliyoiva na yaliyoanguka, usiache ya zamani mtini au chini. Ambia chama."
+   },
+   "more": {
+    "en": "The coffee berry borer is a tiny beetle that bores a hole about the size of a pin into the berry and breeds inside, ruining the bean. Old berries left on the tree or the ground keep it alive between harvests, so pick everything at harvest and clear fallen berries. Pruning helps. Traps and a natural fungus (Beauveria) are used in some places: ask your cooperative what is approved here.",
+    "sw": "Mdudu wa matunda ya kahawa ni mende mdogo anayetoboa tundu la ukubwa wa pini ndani ya tunda na kuzaliana humo, akiharibu punje. Matunda ya zamani yaliyobaki mtini au chini humhifadhi kati ya mavuno, kwa hivyo chuma yote wakati wa mavuno na uondoe yaliyoanguka. Kupogoa husaidia. Mitego na kuvu asilia (Beauveria) hutumika sehemu nyingine: uliza chama chako kilichoidhinishwa hapa."
+   },
+   "source": [
+    {
+     "file": "berry-borer-review-2020.pdf",
+     "where": "p.4 life cycle (entrance hole 0.6-0.8 mm); p.7 IPM: sanitation of tree and ground raisins, pruning, Beauveria bassiana, traps",
+     "quote": "sanitation of tree and ground raisins ... pruning of both coffee and shade trees ... sprays of the entomopathogenic fungus Beauveria bassiana ... mass trapping"
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "spray_timing",
+   "label": "When to spray",
+   "sms": {
+    "en": "For leaf rust: spray mid-October before the short rains, again 3 weeks later. Long rains: late Feb or early Mar, then every 3 weeks for copper.",
+    "sw": "Kutu ya majani: nyunyiza katikati ya Oktoba kabla ya mvua fupi, tena baada ya wiki 3. Mvua ndefu: mwisho wa Feb au mwanzo wa Machi, kisha kila wiki 3 kwa shaba."
+   },
+   "more": {
+    "en": "Rust spores spread with the rains, so sprays go on just before them. Short rains: first spray in mid-October, second 3 weeks later. Long rains: first spray in late February or early March, then one or two more, every 3 weeks for copper products or every 4 weeks for others. Systemic products: only twice a season. Use only products registered for coffee, at the label rate, and alternate products. Your cooperative or extension officer has the current list.",
+    "sw": "Vijidudu vya kutu husambaa na mvua, kwa hivyo unyunyizaji hufanywa kabla yake. Mvua fupi: mara ya kwanza katikati ya Oktoba, ya pili baada ya wiki 3. Mvua ndefu: mara ya kwanza mwisho wa Februari au mwanzo wa Machi, kisha mara moja au mbili zaidi, kila wiki 3 kwa dawa za shaba au kila wiki 4 kwa nyingine. Dawa za kimfumo: mara mbili tu kwa msimu. Tumia dawa zilizosajiliwa kwa kahawa tu, kwa kipimo cha lebo, na ubadilishe dawa. Chama chako au afisa ugani ana orodha ya sasa."
+   },
+   "source": [
+    {
+     "file": "rust-kenya-review-kalro-2021.pdf",
+     "where": "p.6-7",
+     "quote": "For the long rain period, the first spray is applied in late February or early March followed by one or two sprays at three weeks intervals for copper formulations and four-week intervals for other formulations. Systemic formulations are applied only twice in a season"
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "yield_drop",
+   "label": "Why is my yield dropping",
+   "sms": {
+    "en": "Check: 1 orange powder under leaves (rust) 2 black berries (CBD) 3 holes in berries (borer) 4 old unpruned bushes or no fertilizer. Reply with what you see.",
+    "sw": "Angalia: 1 unga wa machungwa chini ya majani (kutu) 2 matunda meusi (CBD) 3 matundu kwenye matunda (borer) 4 miti mizee, bila mbolea. Jibu unachoona."
+   },
+   "more": {
+    "en": "The usual reasons a coffee crop falls: leaf rust (orange powder under the leaves, leaves dropping), coffee berry disease (dark spots, black berries), berry borer (tiny holes in berries), old bushes that were never pruned or stumped, and poor soil care (weeds, no mulch, no fertilizer). Severe rust alone can cut a crop by more than three quarters. Tell me what you see and I will give the next step. If none of these fit, ask your extension officer to visit.",
+    "sw": "Sababu za kawaida mavuno ya kahawa kushuka: kutu ya majani (unga wa machungwa chini ya majani, majani kupukutika), ugonjwa wa matunda (madoa meusi, matunda meusi), mdudu wa matunda (matundu madogo), miti mizee isiyowahi kupogolewa, na utunzaji duni wa udongo (magugu, bila matandazo, bila mbolea). Kutu kali peke yake inaweza kupunguza mavuno kwa zaidi ya robo tatu. Niambie unachoona nikupe hatua inayofuata. Kama hakuna kinacholingana, mwombe afisa ugani akutembelee."
+   },
+   "source": [
+    {
+     "file": "rust-kenya-review-kalro-2021.pdf",
+     "where": "p.2",
+     "quote": "can cause yield losses in excess of 75% where outbreaks are severe"
+    },
+    {
+     "file": "fao-plantation-care.txt",
+     "where": "upkeep of soil, pruning, fertilizer sections"
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "fertilizer_weeds",
+   "label": "Fertilizer and weeds",
+   "sms": {
+    "en": "Prune and weed first, then add fertilizer, or it only feeds weeds and wood. Cover the soil with cut weeds or leaves to keep it moist.",
+    "sw": "Pogoa na palilia kwanza, kisha weka mbolea, la sivyo inalisha magugu na mbao tu. Funika udongo kwa magugu yaliyokatwa au majani ili ubaki na unyevu."
+   },
+   "more": {
+    "en": "Fertilizer costs money, so make it count: only apply it after the bushes are pruned and the weeds are cleared, otherwise it feeds the weeds and the branches instead of the berries. Keep the soil covered with cut weeds or other mulch: it holds moisture and stops weeds. For the right fertilizer and amount for your soil, ask your cooperative or extension officer (a soil test helps).",
+    "sw": "Mbolea inagharimu pesa, kwa hivyo itumie vizuri: iweke tu baada ya kupogoa miti na kuondoa magugu, la sivyo inalisha magugu na matawi badala ya matunda. Funika udongo kwa magugu yaliyokatwa au matandazo mengine: huhifadhi unyevu na kuzuia magugu. Kwa aina na kiasi sahihi cha mbolea kwa udongo wako, uliza chama chako au afisa ugani (kupima udongo husaidia)."
+   },
+   "source": [
+    {
+     "file": "fao-plantation-care.txt",
+     "where": "sections 30-31, 36",
+     "quote": "If you do not prune your coffee trees, and you do not hoe, then you should not apply any fertilizer. The fertilizer would do nothing except feed the wood of the branches and the weeds."
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "pruning",
+   "label": "Pruning old bushes",
+   "sms": {
+    "en": "Old unpruned bushes give less coffee. Prune each year after harvest so light and air reach the branches. Ask your extension officer before stumping.",
+    "sw": "Miti mizee isiyopogolewa huzaa kidogo. Pogoa kila mwaka baada ya mavuno ili mwanga na hewa vifike matawini. Uliza afisa ugani kabla ya kukata shina."
+   },
+   "more": {
+    "en": "A coffee tree that is not pruned grows too many old branches that bear little. Pruning gives the tree new branches that carry berries, lets light and air in (less disease) and makes spraying reach the leaves. Each variety is pruned differently, and cutting a very old bush back to the stump to restart it is a big decision, so get your extension officer to show you on your own trees.",
+    "sw": "Mti wa kahawa usiopogolewa huota matawi mengi mazee yasiyozaa sana. Kupogoa huupa mti matawi mapya yanayobeba matunda, huingiza mwanga na hewa (magonjwa machache) na hufanya dawa ifike majani. Kila aina hupogolewa tofauti, na kukata mti mzee sana hadi shina ili uanze upya ni uamuzi mkubwa, kwa hivyo mwombe afisa ugani akuonyeshe kwenye miti yako."
+   },
+   "source": [
+    {
+     "file": "fao-plantation-care.txt",
+     "where": "pruning section",
+     "quote": "Every variety of coffee tree needs different pruning."
+    },
+    {
+     "file": "rust-kenya-review-kalro-2021.pdf",
+     "where": "p.5",
+     "quote": "maintenance pruning of the coffee trees"
+    }
+   ],
+   "ask_person": true
+  },
+  {
+   "id": "harvest",
+   "label": "Picking",
+   "sms": {
+    "en": "Pick only ripe red cherries. Green ones lower the grade and the price. Go over the trees several times as they ripen.",
+    "sw": "Chuma cheri nyekundu zilizoiva tu. Mbichi hupunguza daraja na bei. Pitia miti mara kadhaa zinapoiva."
+   },
+   "more": {
+    "en": "Cherries on one tree ripen at different times: green, red and dark overripe ones grow side by side. In Kenya farmers pick by hand and take only the ripe red ones, going round the trees several times in the season. Green and overripe cherries lower the quality grade of the whole delivery, and with it the price your cooperative gets.",
+    "sw": "Cheri za mti mmoja huiva nyakati tofauti: mbichi, nyekundu na zilizoiva kupita kiasi hukua pamoja. Kenya wakulima huchuma kwa mkono na kuchukua nyekundu zilizoiva tu, wakipitia miti mara kadhaa msimu. Cheri mbichi na zilizoiva kupita kiasi hupunguza daraja la mzigo wote, na hivyo bei anayopata chama chako."
+   },
+   "source": [
+    {
+     "file": "harvest-process-kenya-solai.txt",
+     "where": "line 20",
+     "quote": "Selective harvesting is the preferred harvest method in Kenya, allowing farmers to pick only the viable cherries"
+    },
+    {
+     "file": "harvest-handpicking-afrocoffee.txt",
+     "where": "lines 20-24",
+     "quote": "Green unripe cherries, red ripe cherries, and dark red or purple overripe cherries often grow on the same coffee tree at the same time."
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "quality",
+   "label": "Quality and sorting",
+   "sms": {
+    "en": "Before delivery, sort out dry, diseased and unripe cherries, leaves and twigs. A clean delivery gets a better grade.",
+    "sw": "Kabla ya kupeleka, toa cheri kavu, zenye ugonjwa na mbichi, majani na vijiti. Mzigo safi hupata daraja bora."
+   },
+   "more": {
+    "en": "Spread the day's cherries out and remove dry, diseased and immature cherries, leaves and twigs before you deliver to the factory. Kenyan coffee is graded after pulping (grade 1, grade 2 and lights), so what goes in decides the grade that comes out, and the grade decides the price.",
+    "sw": "Tandaza cheri za siku na uondoe kavu, zenye ugonjwa na ambazo hazijakomaa, majani na vijiti kabla ya kupeleka kiwandani. Kahawa ya Kenya hupangwa madaraja baada ya kumenywa (daraja la 1, la 2 na nyepesi), kwa hivyo unachopeleka huamua daraja linalotoka, na daraja huamua bei."
+   },
+   "source": [
+    {
+     "file": "harvest-process-kenya-solai.txt",
+     "where": "lines 24, 29",
+     "quote": "sorting to remove dry, diseased, immature cherries, leaves, and twigs ... parchment coffee, graded (grade 1, grade 2, and lights)"
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "price",
+   "label": "Price and payment",
+   "sms": {
+    "en": "World Arabica price: US$7.26/kg (World Bank, Sep 2026). Farmers earned KSh 101-120/kg in 2024. Check your coop's payout before you sell to a buyer.",
+    "sw": "Bei ya dunia ya Arabica: US$7.26/kg (Benki ya Dunia, Sep 2026). Wakulima walipata KSh 101-120/kg 2024. Hakiki malipo ya chama kabla ya kuuza kwa mnunuzi."
+   },
+   "more": {
+    "en": "Two reference numbers before you agree a price. The world Arabica price was US$7.26/kg in Sep 2026 (World Bank). In Kenya, farmer earnings rose from about KSh 48-50 per kg in 2022 to KSh 101-120 per kg in 2024, and auction prices at the Nairobi Coffee Exchange hit a record KSh 1,025 per kg. Through the cooperative, the Direct Settlement System pays at least 80% of sale proceeds to farmers within 5 days. These are references, not an offer: you decide who to sell to.",
+    "sw": "Namba mbili za kulinganisha kabla ya kukubali bei. Bei ya dunia ya Arabica ilikuwa US$7.26/kg mwezi Sep 2026 (Benki ya Dunia). Kenya, mapato ya wakulima yalipanda kutoka takriban KSh 48-50 kwa kilo 2022 hadi KSh 101-120 kwa kilo 2024, na bei za mnada wa Nairobi Coffee Exchange zilifikia rekodi ya KSh 1,025 kwa kilo. Kupitia chama, mfumo wa Direct Settlement hulipa angalau 80% ya mapato kwa wakulima ndani ya siku 5. Hizi ni namba za kulinganisha, si ofa: wewe ndiye unaamua kumuuzia nani."
+   },
+   "source": [
+    {
+     "file": "cooperatives-kenya-openafricantribune-2026.txt",
+     "where": "lines 12, 47, 49",
+     "quote": "Farmers' earnings per kilogram have also improved substantially from KSh 48 to 50 per kilogram in 2022 to KSh 101 to 120 per kilogram by 2024"
+    },
+    {
+     "file": "../prices/CMO-Historical-Data-Monthly.xlsx",
+     "where": "Coffee, Arabica column, latest month",
+     "quote": "filled in at build time"
+    }
+   ],
+   "ask_person": false,
+   "fills": [
+    "arabica",
+    "price_month"
+   ]
+  },
+  {
+   "id": "varieties",
+   "label": "Resistant varieties",
+   "sms": {
+    "en": "Ruiru 11 and Batian are Kenyan coffee varieties that resist leaf rust and berry disease. Ask your coop nursery about seedlings when you replant.",
+    "sw": "Ruiru 11 na Batian ni aina za kahawa za Kenya zenye kinga dhidi ya kutu na ugonjwa wa matunda. Uliza kitalu cha chama kuhusu miche unapopanda upya."
+   },
+   "more": {
+    "en": "Kenya's Coffee Research Institute bred Ruiru 11 and Batian to resist coffee berry disease and leaf rust (Ruiru 11 has stayed highly resistant to rust; Batian is partly resistant). Farmers around Mount Kenya have switched after rust and berry disease wrecked their crops, and some cooperatives sell seedlings at a subsidised price.",
+    "sw": "Taasisi ya Utafiti wa Kahawa ya Kenya ilizalisha Ruiru 11 na Batian ili kustahimili ugonjwa wa matunda na kutu ya majani (Ruiru 11 imebaki na kinga kubwa dhidi ya kutu; Batian ina kinga ya wastani). Wakulima karibu na Mlima Kenya wamebadilisha baada ya kutu na ugonjwa wa matunda kuharibu mazao yao, na baadhi ya vyama huuza miche kwa bei ya ruzuku."
+   },
+   "source": [
+    {
+     "file": "rust-kenya-review-kalro-2021.pdf",
+     "where": "p.5",
+     "quote": "Ruiru 11 has remained highly resistant to CLR since its release while Batian exhibits intermediate resistance to CLR"
+    },
+    {
+     "file": "cbd-rust-mount-kenya-independent.txt",
+     "where": "lines 24-31",
+     "quote": "offering them seedlings from its nursery at a subsidised price"
+    }
+   ],
+   "ask_person": false
+  },
+  {
+   "id": "ask_person",
+   "label": "Talk to a person",
+   "sms": {
+    "en": "I've saved your question for the extension officer and your cooperative. They will contact you. For urgent help, call your cooperative office.",
+    "sw": "Nimehifadhi swali lako kwa afisa ugani na chama chako. Watawasiliana nawe. Kwa msaada wa haraka, piga simu ofisi ya chama chako."
+   },
+   "more": {
+    "en": "Your question has been saved with your own words and will go to the extension officer and your cooperative the next time this phone has a signal. They will contact you. For anything urgent, call your cooperative office.",
+    "sw": "Swali lako limehifadhiwa kwa maneno yako na litatumwa kwa afisa ugani na chama chako simu hii itakapopata mtandao. Watawasiliana nawe. Kwa jambo la haraka, piga simu ofisi ya chama chako."
+   },
+   "source": [],
+   "ask_person": true
+  }
+ ],
+ "fallback": {
+  "id": "not_sure",
+  "sms": {
+   "en": "I can only help with coffee problems, when to act and the price. Your question is saved for the extension officer. Try: rust, holes, spray, price.",
+   "sw": "Naweza kusaidia tu na matatizo ya kahawa, wakati wa kutenda na bei. Swali lako limehifadhiwa kwa afisa ugani. Jaribu: kutu, matundu, dawa, bei."
+  },
+  "ask_person": true,
+  "note": "Shown when the classifier's confidence is below the threshold, or the question is outside this list (e.g. antestia bug, where to buy inputs, anything about people's health). The question is queued for a person."
+ },
+ "filled": {
+  "arabica": "US$7.26/kg",
+  "price_month": "Sep 2026"
+ }
+}

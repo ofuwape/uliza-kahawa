@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uliza Kahawa · Coffee advice on any phone, no internet needed</title>
+<meta name="description" content="A tiny AI on the phone answers coffee farmers in Kiswahili or English with advice written by experts, and works with no internet.">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><b>Uliza Kahawa</b><span>"Ask about coffee"</span></div>
+  <nav class="tabs" role="tablist">
+    <button class="on" data-tab="smart" role="tab">Phone with the app</button>
+    <button data-tab="plain" role="tab">Basic phone</button>
+    <button data-tab="brief" role="tab">Weekly brief</button>
+  </nav>
+  <div class="lang" role="group" aria-label="Phone language">
+    <span>Phone language</span>
+    <button data-lang="sw">Kiswahili</button><button data-lang="en">English</button>
+  </div>
+  <div id="net" class="net">…</div>
+</header>
+
+<p class="intro" id="intro"></p>
+
+<main>
+  <!-- ============ TAB 1: the app on the household's phone, works with no internet ============ -->
+  <section id="tab-smart" class="stage">
+    <div class="phone kai" aria-label="Phone with the app">
+      <div class="ear"></div>
+      <div class="screen" id="screen"></div>
+      <div class="keys">
+        <button class="soft" data-key="left" id="softL">Back</button>
+        <button class="dpad" data-key="ok">OK</button>
+        <button class="soft" data-key="right" id="softR">Menu</button>
+      </div>
+      <div class="pad">
+        <span>1</span><span>2 abc</span><span>3 def</span><span>4 ghi</span><span>5 jkl</span><span>6 mno</span>
+        <span>7 pqrs</span><span>8 tuv</span><span>9 wxyz</span><span>*</span><span>0</span><span>#</span>
+      </div>
+    </div>
+
+    <aside class="side">
+      <div class="card">
+        <div class="k">1 · Try a question</div>
+        <div id="chips"></div>
+        <p class="note">Or open "Ask a question" on the phone and type your own, in Kiswahili, English or a mix.</p>
+      </div>
+      <div class="card">
+        <div class="k">2 · What the AI understood</div>
+        <div id="hood" class="hood"><p>Ask something to see how sure it was.</p></div>
+      </div>
+      <div class="card">
+        <div class="k">3 · Works without internet</div>
+        <p id="offline-proof">Loading…</p>
+        <label class="switch"><input type="checkbox" id="simOff"> No signal (or turn your Wi-Fi off for real)</label>
+      </div>
+      <div class="card">
+        <div class="k">4 · Questions for the extension officer</div>
+        <p class="note">When the AI isn't sure, the question is saved on the phone and sent by SMS as soon as there is signal.</p>
+        <div id="queue" class="queue"></div>
+      </div>
+    </aside>
+  </section>
+
+  <!-- ============ TAB 2: basic phone, dial a code or send an SMS ============ -->
+  <section id="tab-plain" class="stage" hidden>
+    <div class="phone nokia" aria-label="Basic phone">
+      <div class="ear"></div>
+      <div class="screen mono" id="ussd"></div>
+      <div class="ussd-input"><input id="ussdIn" placeholder="type here, then Send" autocomplete="off"><button id="ussdSend">Send</button></div>
+      <div id="ussdTimer" class="timer" hidden></div>
+      <div class="keys4"><button id="ussdDial">Dial code</button><button id="ussdSms">SMS</button><button id="ussdVoice">Voice call</button><button id="ussdCancel">Hang up</button></div>
+    </div>
+    <aside class="side">
+      <div class="card">
+        <div class="k">Try it</div>
+        <ol class="steps">
+          <li>Press <b>Dial code</b> (it dials <code>*384*2026#</code>).</li>
+          <li>Type your question straight in and press Send, for example <i>majani yana unga wa njano chini</i>
+            ("yellow powder under the leaves"). Or type <b>2</b> for the price, <b>3</b> for a person.</li>
+        </ol>
+        <p class="note">Or press <b>SMS</b> to text the question, or <b>Voice call</b> to hear the answers (for farmers who
+          prefer listening to reading).</p>
+        <label class="switch"><input type="checkbox" id="slow2g"> Slow 2G network (adds realistic delay)</label>
+      </div>
+      <div class="card">
+        <div class="k">The 10 second rule</div>
+        <p>A USSD session drops if the reply takes more than about 10 seconds. Big AI models in the cloud can take several
+          seconds to answer, which is risky. This small model answers in a few milliseconds, so even on a slow 2G network
+          the reply arrives with plenty of time to spare. The bar under the phone shows each reply's time.</p>
+      </div>
+      <div class="card">
+        <div class="k">Why a second phone</div>
+        <p>Many farmers have a basic phone that can't install apps. It can still dial a short code (USSD) or send an SMS,
+          which need a phone signal but no internet or data. The same AI and the same expert answers reach them that way.</p>
+        <p>This screen runs the same code a real USSD code or SMS number would run (it is in the project as a ready
+          server), so what you see here is what the farmer's phone would get. The code shown is a placeholder.</p>
+      </div>
+      <div class="card">
+        <div class="k">What the AI understood</div>
+        <div id="hood2" class="hood"><p>—</p></div>
+      </div>
+    </aside>
+  </section>
+  <!-- ============ TAB 3: the connected tier, a weekly brief a person approves before it is sent ============ -->
+  <section id="tab-brief" class="stage" hidden>
+    <div class="phone nokia" aria-label="Basic phone receiving the brief">
+      <div class="ear"></div>
+      <div class="screen mono" id="briefPhone"></div>
+      <div class="keys4"><button disabled>Inbox</button><button disabled>SMS</button><button disabled>Menu</button><button disabled>Back</button></div>
+    </div>
+    <aside class="side">
+      <div class="card">
+        <div class="k">Sample weekly brief</div>
+        <p id="briefMeta"></p>
+        <div id="review"></div>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<footer class="foot">
+  <b>About this demo:</b> everything runs in this browser tab. Your questions are kept only in this tab and are gone
+  when you close it; nothing is sent anywhere, and "sent by SMS" is simulated. The consent screen shows what a farmer
+  would see in real use.<br>
+  The AI never writes advice: it only picks from answers written by people from coffee research sources. When it isn't
+  sure, it says so and passes the question to a person. Prices are a reference, not an offer: the farmer decides.
+  The Kiswahili text is a draft translation still to be checked by a native speaker.
+  · <a href="https://github.com/ofuwape/uliza-kahawa">Code (MIT)</a>
+</footer>
+
+<script src="model.js"></script>
+<script src="channels.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

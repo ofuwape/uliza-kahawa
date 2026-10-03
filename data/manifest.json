@@ -1,0 +1,114 @@
+{
+  "faostat/kenya_coffee_qcl.csv": {
+    "brief_link": "https://www.fao.org/faostat",
+    "bytes": 4730,
+    "pulled_at": "2026-10-03T18:13:00+00:00",
+    "sha256": "14a5f84f81353819c6164964fd78064f9812ed6141003445edfc08410fe93d58",
+    "source": "faostat"
+  },
+  "flores/dev/eng_Latn.dev": {
+    "brief_link": "https://github.com/facebookresearch/flores",
+    "bytes": 126287,
+    "pulled_at": "2026-10-03T18:26:41+00:00",
+    "sha256": "51a25f527fd81f428b6933d85a2f5e5544af92aa82042c7fbf0c4120327fba0a",
+    "source": "flores"
+  },
+  "flores/dev/kik_Latn.dev": {
+    "brief_link": "https://github.com/facebookresearch/flores",
+    "bytes": 164699,
+    "pulled_at": "2026-10-03T18:26:41+00:00",
+    "sha256": "1ddec6492413a9024ffeb6dd814a1a0bd9f1d768f34164330c77ace4b94749aa",
+    "source": "flores"
+  },
+  "flores/dev/swh_Latn.dev": {
+    "brief_link": "https://github.com/facebookresearch/flores",
+    "bytes": 132843,
+    "pulled_at": "2026-10-03T18:26:41+00:00",
+    "sha256": "59c8ee7cb9a702f32ff3f3e6974f4465db63df0d7172fe0d53c8bd2405daa547",
+    "source": "flores"
+  },
+  "flores/devtest/eng_Latn.devtest": {
+    "brief_link": "https://github.com/facebookresearch/flores",
+    "bytes": 133108,
+    "pulled_at": "2026-10-03T18:26:41+00:00",
+    "sha256": "612e9fbe87997617c0fa8fa8929654a4f49b728d96738112c2b86ef6a1d78d88",
+    "source": "flores"
+  },
+  "flores/devtest/kik_Latn.devtest": {
+    "brief_link": "https://github.com/facebookresearch/flores",
+    "bytes": 171836,
+    "pulled_at": "2026-10-03T18:26:41+00:00",
+    "sha256": "6cd31e43738fafad353886853e4f984482757f9fa554ed9ceb742e813891bba8",
+    "source": "flores"
+  },
+  "flores/devtest/swh_Latn.devtest": {
+    "brief_link": "https://github.com/facebookresearch/flores",
+    "bytes": 139322,
+    "pulled_at": "2026-10-03T18:26:41+00:00",
+    "sha256": "834ce9e5f48893505f9d69dec24da2545be4323e841fb23440e36c62c5d61ee4",
+    "source": "flores"
+  },
+  "massive/en-US.jsonl": {
+    "brief_link": "https://github.com/alexa/massive",
+    "bytes": 3904197,
+    "pulled_at": "2026-10-03T18:11:54+00:00",
+    "sha256": "c70f75c6a543a26e249ec383df67733ad9b1066f6c0406c2e04a3f03356e407e",
+    "source": "massive"
+  },
+  "massive/sw-KE.jsonl": {
+    "brief_link": "https://github.com/alexa/massive",
+    "bytes": 12040302,
+    "pulled_at": "2026-10-03T18:11:54+00:00",
+    "sha256": "ecbba1155655fddc049ef501386cf2c16129f78d23f0d306d78ff04bfaa014a3",
+    "source": "massive"
+  },
+  "power/nyeri_daily.csv": {
+    "brief_link": "https://power.larc.nasa.gov/",
+    "bytes": 104673,
+    "pulled_at": "2026-10-03T18:11:55+00:00",
+    "sha256": "bc01093e073992e66f05fd5945f359e736121eda103c0ba2a9834d376e4046ea",
+    "source": "power"
+  },
+  "prices/CMO-Historical-Data-Monthly.xlsx": {
+    "brief_link": "(not in the brief; World Bank Commodity Price Data, our addition for coffee prices)",
+    "bytes": 586099,
+    "pulled_at": "2026-10-03T18:14:18+00:00",
+    "sha256": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154",
+    "source": "pinksheet"
+  },
+  "prices/wfp_food_prices_ken.csv": {
+    "brief_link": "https://data.humdata.org/dataset/global-wfp-food-prices",
+    "bytes": 3671312,
+    "pulled_at": "2026-10-03T18:11:56+00:00",
+    "sha256": "9afbfe580bdd505a3614c477f41e1a010b25d5b7600f9af2b0e7700f490db89b",
+    "source": "wfp"
+  },
+  "wdi/KEN_IT.CEL.SETS.P2.json": {
+    "brief_link": "https://data.worldbank.org/",
+    "bytes": 15039,
+    "pulled_at": "2026-10-03T18:13:00+00:00",
+    "sha256": "7186fb8e598d16c986f491737e280445ae9b62471217581b038d965276ffc1f4",
+    "source": "wdi"
+  },
+  "wdi/KEN_IT.NET.USER.ZS.json": {
+    "brief_link": "https://data.worldbank.org/",
+    "bytes": 15042,
+    "pulled_at": "2026-10-03T18:13:00+00:00",
+    "sha256": "5975451a30b270edc2f4f058d2155a0ad4e64fabe2f12124f53bf257e2fd96f3",
+    "source": "wdi"
+  },
+  "wdi/KEN_SL.AGR.EMPL.ZS.json": {
+    "brief_link": "https://data.worldbank.org/",
+    "bytes": 16878,
+    "pulled_at": "2026-10-03T18:13:00+00:00",
+    "sha256": "6e17d3ffe5703a1796105d4d2c727ae0b6fd7cd94b28465f7c771d5dc5f2cfba",
+    "source": "wdi"
+  },
+  "wdi/KEN_SP.RUR.TOTL.ZS.json": {
+    "brief_link": "https://data.worldbank.org/",
+    "bytes": 15137,
+    "pulled_at": "2026-10-03T18:13:00+00:00",
+    "sha256": "48164f41bbfb916a783df29c5896ec91ce53eb95104bbdeb74e2496f961fb526",
+    "source": "wdi"
+  }
+}

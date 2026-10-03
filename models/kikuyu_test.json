@@ -1,0 +1,199 @@
+{
+ "_about": "Gemini 2.5 Pro translations of hand-written Kiswahili examples. UNVERIFIED by a Kikuyu speaker.",
+ "source_sw": {
+  "leaf_rust": [
+   "majani ya kahawa yana unga wa njano chini",
+   "madoa ya machungwa chini ya majani",
+   "kutu kwenye majani ya kahawa",
+   "majani yana kutu nifanye nini",
+   "majani yanapukutika na yana unga",
+   "unga wa rangi ya chungwa kwenye majani"
+  ],
+  "cbd": [
+   "matunda ya kahawa yanageuka meusi",
+   "cheri zinaoza zikiwa mbichi",
+   "madoa meusi kwenye matunda mabichi",
+   "matunda yanakauka mtini",
+   "ugonjwa wa matunda ya kahawa",
+   "matunda yanaanguka yakiwa meusi"
+  ],
+  "berry_borer": [
+   "matunda yana matundu madogo",
+   "kuna tundu kwenye cheri",
+   "wadudu ndani ya matunda ya kahawa",
+   "kidudu kinatoboa matunda",
+   "matunda yametobolewa",
+   "punje zimeharibika ndani"
+  ],
+  "spray_timing": [
+   "nipige dawa lini",
+   "ninyunyize dawa wakati gani",
+   "dawa ya kutu inapigwa lini",
+   "lini nianze kunyunyiza kabla ya mvua",
+   "mara ngapi ninyunyize dawa",
+   "kunyunyizia kahawa msimu wa mvua"
+  ],
+  "yield_drop": [
+   "mavuno yangu yamepungua",
+   "kahawa haizai kama zamani",
+   "mbona mavuno yanashuka",
+   "mwaka huu nimepata kilo chache",
+   "miti inazaa kidogo",
+   "kwa nini kahawa yangu haizai"
+  ],
+  "fertilizer_weeds": [
+   "niweke mbolea gani",
+   "mbolea ya kahawa",
+   "lini niweke mbolea",
+   "magugu mengi kwenye shamba la kahawa",
+   "nifanye nini na magugu",
+   "matandazo kwa kahawa"
+  ],
+  "pruning": [
+   "nipogoe kahawa lini",
+   "kupogoa miti ya kahawa",
+   "miti yangu ni mizee sana",
+   "matawi mengi mazee",
+   "nikate shina la mti mzee",
+   "jinsi ya kupogoa kahawa"
+  ],
+  "harvest": [
+   "nichume cheri lini",
+   "jinsi ya kuchuma kahawa",
+   "nichume zilizoiva tu",
+   "cheri nyekundu ama kijani",
+   "naweza kuchuma cheri mbichi",
+   "mavuno ya kahawa yanaanza lini"
+  ],
+  "quality": [
+   "kupanga cheri kabla ya kupeleka",
+   "daraja la kahawa",
+   "kahawa yangu ilipewa daraja la chini",
+   "jinsi ya kupata daraja bora",
+   "nitoe cheri mbaya",
+   "ubora wa kahawa"
+  ],
+  "price": [
+   "bei ya kahawa leo",
+   "kilo ya kahawa ni pesa ngapi",
+   "mnunuzi ananipa bei ndogo",
+   "bei ya cheri ni ngapi",
+   "nimuuzie broker ama chama",
+   "malipo ya chama yatakuja lini"
+  ],
+  "varieties": [
+   "aina ya kahawa isiyoshikwa na ugonjwa",
+   "ruiru 11",
+   "batian",
+   "miche ya kahawa",
+   "nipande aina gani",
+   "aina yenye kinga ya kutu"
+  ],
+  "ask_person": [
+   "nataka kuongea na afisa ugani",
+   "nipigie simu",
+   "naomba msaada wa mtu",
+   "nataka kuongea na mtu",
+   "afisa ugani aje shambani",
+   "niunganishe na chama"
+  ]
+ },
+ "kikuyu": {
+  "leaf_rust": [
+   "Mathangũ ma kahawa marĩ na mũtu wa njano rungu.",
+   "Marangi ma icungwa rungu rwa mathangũ.",
+   "Ngutu mathangũ-inĩ ma kahawa.",
+   "Mathangũ marĩ na ngutu njĩke atĩa?",
+   "Mathangũ nĩmararuka na marĩ na mũtu.",
+   "Mũtu wa rangi ya icungwa mathangũ-inĩ."
+  ],
+  "cbd": [
+   "Mbuni cia kahawa iracoka irũ.",
+   "Mbuni irathũka irĩ mbicũ.",
+   "Marangi mairũ harĩ mbuni mbicũ.",
+   "Mbuni irahũa irĩ mũtĩ-inĩ.",
+   "Mũrimũ wa mbuni cia kahawa.",
+   "Mbuni iragũa irĩ njirũ."
+  ],
+  "berry_borer": [
+   "Mbuni irĩ na tũturu tũnini.",
+   "Kũrĩ na iturũ harĩ mbuni.",
+   "Tũkũngũ thĩinĩ wa mbuni cia kahawa.",
+   "Gakũngũ karaturanga mbuni.",
+   "Mbuni nĩciturangatwo.",
+   "Njere nĩthũkĩte thĩinĩ."
+  ],
+  "spray_timing": [
+   "Mbarie ndawa rĩ?",
+   "Mminjaminje ndawa ihinda rĩ?",
+   "Ndawa ya ngutu ībaragwo rĩ?",
+   "Njambe kũminjaminja rĩ mbura ĩtanamba kũũra?",
+   "Mminjaminje ndawa maita maigania?",
+   "Kũminjaminja kahawa hĩndĩ ya mbura."
+  ],
+  "yield_drop": [
+   "Magetha makwa nĩmanyihĩte.",
+   "Kahawa ndĩraciaraga ta tene.",
+   "Nĩkĩ magetha maranyihanyihaga?",
+   "Mwaka ũyũ nyonete kiro nini.",
+   "Mĩtĩ nĩĩciaraga kanini.",
+   "Nĩkĩ kahawa yakwa ndĩraciaraga?"
+  ],
+  "fertilizer_weeds": [
+   "Njĩkĩre mbolea ĩrĩkũ?",
+   "Mbolea ya kahawa.",
+   "Njĩkĩre mbolea rĩ?",
+   "Nyeki nyingĩ mũgũnda-inĩ wa kahawa.",
+   "Njĩke atĩa na nyeki?",
+   "Gũtanda kahawa."
+  ],
+  "pruning": [
+   "Ndahe kahawa rĩ?",
+   "Gũtaha mĩtĩ ya kahawa.",
+   "Mĩtĩ yakwa nĩ mĩkũrũ mũno.",
+   "Honge nyingĩ ngũrũ.",
+   "Ndehe gĩtina kĩa mũtĩ mũkũrũ?",
+   "Mũtahire wa kahawa."
+  ],
+  "harvest": [
+   "Ngethe mbuni rĩ?",
+   "Mũgethere wa kahawa.",
+   "Ngethe iria hĩu wiki.",
+   "Mbuni njirũ kana mbicũ?",
+   "No ngethe mbuni mbicũ?",
+   "Magetha ma kahawa mambagĩrĩria rĩ?"
+  ],
+  "quality": [
+   "Gũthuurana mbuni mbere ya gũtwara.",
+   "Gĩredo gĩa kahawa.",
+   "Kahawa yakwa nĩyaheirwo gĩredo gĩa thĩ.",
+   "Ũrĩa ngũgĩa na gĩredo kĩega.",
+   "Ndeherie mbuni thũku?",
+   "Wega wa kahawa."
+  ],
+  "price": [
+   "Bei ya kahawa ũmũthĩ.",
+   "Kiro ya kahawa nĩ mbeca cigana?",
+   "Mũgũri arandeithia na bei ya thĩ.",
+   "Bei ya mbuni nĩ cigana?",
+   "Ndwĩrire mũroka kana kĩama?",
+   "Marĩhi ma kĩama magooka rĩ?"
+  ],
+  "varieties": [
+   "Mũthemba wa kahawa ũtarumagwo nĩ mĩrimũ.",
+   "Ruiru 11.",
+   "Batian.",
+   "Tũhĩnja twa kahawa.",
+   "Nhande mũthemba űrĩkũ?",
+   "Mũthemba ũtarumagwo nĩ ngutu."
+  ],
+  "ask_person": [
+   "Nĩrenda kwaria na abitha wa ũrĩmi.",
+   "Mbia simu.",
+   "Nĩndĩrenda ũteithio wa mũndũ.",
+   "Nĩrenda kwaria na mũndũ.",
+   "Abitha wa ũrĩmi oke mũgũnda.",
+   "Nyũmbania na kĩama."
+  ]
+ }
+}

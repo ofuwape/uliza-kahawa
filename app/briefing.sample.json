@@ -1,0 +1,124 @@
+{
+ "_about": "SAMPLE weekly brief drafted with Gemini + Google Search. Every item had a source the search returned; a person reviews before anything is sent. Dates and deadlines go stale: check before use.",
+ "generated": "2026-10-03",
+ "topics": {
+  "funding": {
+   "label": [
+    "Funding",
+    "Pesa na ruzuku"
+   ],
+   "items": [
+    {
+     "title": "Coffee Cherry Advance Fund",
+     "sms_en": "Need cash before your coffee is sold? The govt's Coffee Cherry Advance Fund gives advance pay. Nyeri is a top recipient. Ask your cooperative to apply.",
+     "sms_sw": "Unahitaji pesa kabla kahawa kuuzwa? Mfuko wa Serikali wa Malipo ya Awali ya Kahawa unatoa malipo ya mapema. Nyeri inaongoza. Uliza chama chako.",
+     "date": "",
+     "publisher": "New KPCU",
+     "source_url": "https://saccoreview.co.ke/new-kpcu-disburses-sh15bn-coffee-cherry-fund-nyeri-leads/"
+    },
+    {
+     "title": "National Coffee Revival Programme",
+     "sms_en": "The govt's Coffee Revival Programme offers certified seedlings & support to increase your income. This is an ongoing program. Contact your cooperative.",
+     "sms_sw": "Mpango wa Serikali wa Ufufuzi wa Kahawa unatoa miche bora na usaidizi kuongeza mapato yako. Huu ni mpango endelevu. Wasiliana na chama chako.",
+     "date": "",
+     "publisher": "Government of Kenya",
+     "source_url": "https://www.kbc.co.ke/ruto-launches-coffee-revival-programme-to-boost-farmer-earnings/"
+    },
+    {
+     "title": "Commodities Fund Coffee Loans",
+     "sms_en": "Need a loan for your coffee farm, machinery, or development? The Commodities Fund has an office in Nyeri. Applications are ongoing.",
+     "sms_sw": "Unahitaji mkopo kwa shamba la kahawa, mitambo, au maendeleo? Mfuko wa Bidhaa (Commodities Fund) una ofisi Nyeri. Maombi yanaendelea.",
+     "date": "",
+     "publisher": "Commodities Fund",
+     "source_url": "https://www.comfund.co.ke/products-services/coffee-loans/"
+    }
+   ],
+   "dropped_unsourced": 0,
+   "grounding": [
+    "https://saccoreview.co.ke/new-kpcu-disburses-sh15bn-coffee-cherry-fund-nyeri-leads/",
+    "https://www.the-star.co.ke/counties/central/2026-03-13-coffee-growers-seek-boost-to-sh67bn-cherry-advance-fund",
+    "https://gaa.go.ke/relief-farmers-state-moves-clear-sh68-billion-coffee-debt",
+    "https://coffeegeography.com/2026/06/23/kenya-unveils-coffee-shake-up-promises-farmers-pay-in-five-days/",
+    "https://www.kbc.co.ke/coffee-farmers-to-receive-payments-within-five-days-under-new-reforms/",
+    "https://www.facebook.com/farmerstrend/posts/coffee-sector-reforms-pay-farmers-in-5-days-see-the-sh18b-subsidy-80-percent-rul/1411163361177201/",
+    "https://smartfarmerkenya.com/inside-government-plan-to-ensure-coffee-farmers-earn-at-least-50-of-crop-sales/?v=0b3b97fa6688",
+    "https://www.kbc.co.ke/ruto-launches-coffee-revival-programme-to-boost-farmer-earnings/"
+   ]
+  },
+  "meet": {
+   "label": [
+    "Meet other farmers",
+    "Kutana na wakulima"
+   ],
+   "items": [
+    {
+     "title": "Wambugu Farm Agri Expo",
+     "sms_en": "Farmers! Attend the Wambugu Farm Agricultural Exhibition on July 24-25, 2026 at Wambugu Farm ATC, Nyeri. Learn modern tech & meet experts.",
+     "sms_sw": "Wakulima! Hudhuria Maonyesho ya Kilimo ya Wambugu Farm tarehe 24-25 Julai, 2026 katika Wambugu Farm ATC, Nyeri. Jifunze teknolojia na kukutana na wataalam.",
+     "date": "2026-07-24",
+     "publisher": "Nyeri County Department of Agriculture, Livestock and Aquaculture Development",
+     "source_url": "https://www.facebook.com/OthayaGlobal/videos/wambugu-farm-atc-to-host-nyeris-annual-agricultural-show-and-exhibitionthe-annua/2206151643484069/"
+    },
+    {
+     "title": "Nyeri National Show",
+     "sms_en": "Visit the Central Kenya National Show in Nyeri, Sep 9-12, 2026 at Kabiruini Showground. See new innovations & get climate-smart agriculture training.",
+     "sms_sw": "Tembelea Maonyesho ya Kitaifa ya Nyeri, Sept 9-12, 2026 uwanja wa Kabiruini. Jifunze ubunifu na kilimo kinachostahimili mabadiliko ya hali ya hewa.",
+     "date": "2026-09-09",
+     "publisher": "The Agricultural Society of Kenya (A.S.K) Nyeri Branch",
+     "source_url": "https://www.facebook.com/events/kabiruini-ask-show-ground-nyeri/2026-central-kenya-nyeri-national-show/26231003503222524/"
+    }
+   ],
+   "dropped_unsourced": 0,
+   "grounding": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwUvxEQO06-ZqWHR2_G6fBBxQrdwNYAm58FmJN3-Z7zQ-OHyWc2IYi77zHI2YyZ0S_vjGxmjhZsfCWuzSKEYexrzrGRugOVg5QiWUhEuF92BLbGHrVMc_EAJI7FGy90hxZkMAGYUiZ0jiHGZzJFqysetGJxTdIlAEHxHKz4x-9dkuMIIkyegkvGBJQ0cPB79ePyeDrCXNCCgbYaUVuvsM=",
+    "https://www.facebook.com/County19/videos/-farmers-this-is-your-chance-to-learn-connect-and-growjoin-us-today-and-tomorrow/2582028882231714/",
+    "https://www.facebook.com/OthayaGlobal/videos/ni-kesho-tu-wambugu-atc-agricultural-exhibition-2026-are-you-a-farmer-agribusine/1056714456728138/",
+    "https://www.facebook.com/OthayaGlobal/videos/wambugu-farm-atc-to-host-nyeris-annual-agricultural-show-and-exhibitionthe-annua/2206151643484069/",
+    "https://www.facebook.com/RoyalSeedKE/videos/-%F0%9D%97%A7%F0%9D%97%9B%F0%9D%97%98-%F0%9D%97%AA%F0%9D%97%94%F0%9D%97%9C%F0%9D%97%A7-%F0%9D%97%9C%F0%9D%97%A6-%F0%9D%97%A2%F0%9D%97%A9%F0%9D%97%98%F0%9D%97%A5-%F0%9D%97%A7%F0%9D%97%A2%F0%9D%97%A0%F0%9D%97%A2%F0%9D%97%A5%F0%9D%97%A5%F0%9D%97%A2%F0%9D%97%AA-%F0%9D%97%AA%F0%9D%97%98-%F0%9D%97%9E%F0%9D%97%9C%F0%9D%97%96%F0%9D%97%9E-%F0%9D%97%A2%F0%9D%97%99%F0%9D%97%99-farmers-get-ready-for-an-exciting-farming/1572570467740607/",
+    "https://ask.co.ke/2023/03/19/2019-southern-kenya-branch-show-kisii-show/",
+    "https://www.facebook.com/OthayaGlobal/videos/welcome-to-the-nyeri-agricultural-show-2026promoting-climate-smart-agriculture-a/1394781999423973/",
+    "https://www.facebook.com/events/kabiruini-ask-show-ground-nyeri/2026-central-kenya-nyeri-national-show/26231003503222524/"
+   ]
+  },
+  "market": {
+   "label": [
+    "Coffee market",
+    "Soko la kahawa"
+   ],
+   "items": [
+    {
+     "title": "NCE Auction Prices",
+     "sms_en": "NCE Auction Sep 29: The 2025/26 season ended with an average price of KES 117 per kilo of cherry (USD 294 per bag). Total sales reached KES 839M.",
+     "sms_sw": "Mnada wa NCE Sept 29: Msimu wa 2025/26 umekamilika kwa bei ya wastani ya KSh 117 kwa kilo ya cheri (USD 294 kwa gunia). Mauzo yote yalifikia KSh 839M.",
+     "date": "2026-09-29",
+     "publisher": "Nairobi Coffee Exchange",
+     "source_url": "https://kilimonews.co.ke/general-news/curtain-call-at-the-nairobi-coffee-exchange-sale-42-closes-the-2025-2026-season/"
+    },
+    {
+     "title": "New Payment Rules",
+     "sms_en": "New Coffee Act 2026 rule: Farmers will now be paid through the Direct Settlement System (DSS) within 5 days of a sale. This starts from Oct 2026.",
+     "sms_sw": "Sheria mpya ya Kahawa 2026: Wakulima sasa watalipwa kupitia Mfumo wa Malipo ya Moja kwa Moja (DSS) ndani ya siku 5 baada ya mauzo. Hii inaanza Okt 2026.",
+     "date": "2026-10-01",
+     "publisher": "Government of Kenya",
+     "source_url": "https://peopledaily.digital/news/kenyas-coffee-revolution-new-rules-set-to-change-how-farmers-sell-their-gold"
+    },
+    {
+     "title": "New Marketing Channels",
+     "sms_en": "The new Coffee Act 2026 gives you more choice. You can now sell your coffee through the NCE, direct sales, an international exchange, or other new ways.",
+     "sms_sw": "Sheria mpya ya Kahawa 2026 inakupa chaguo zaidi. Sasa unaweza kuuza kahawa yako kupitia NCE, mauzo ya moja kwa moja, soko la kimataifa, au njia zingine.",
+     "date": "2026-10-01",
+     "publisher": "Coffee Board of Kenya",
+     "source_url": "https://saccoreview.co.ke/coffee-farmers-get-four-marketing-channels-under-new-law/"
+    }
+   ],
+   "dropped_unsourced": 0,
+   "grounding": [
+    "https://kilimonews.co.ke/general-news/curtain-call-at-the-nairobi-coffee-exchange-sale-42-closes-the-2025-2026-season/",
+    "https://saccoreview.co.ke/coffee-sales-fetch-sh839m-as-sale-42-ends-season/",
+    "https://saccoreview.co.ke/coffee-farmers-get-four-marketing-channels-under-new-law/",
+    "https://peopledaily.digital/news/kenyas-coffee-revolution-new-rules-set-to-change-how-farmers-sell-their-gold",
+    "https://www.africaupdates.com/news/kenya-coffee-opens-new-marketing-channels-n1817/2026/10/03"
+   ]
+  }
+ }
+}
